@@ -1,0 +1,1 @@
+""" Naver API를 MCP 형식으로 재구성한 tool 테스트 """
