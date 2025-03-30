@@ -11,4 +11,5 @@ async def get_weather(location: str) -> str:
 
 # SSE 기반으로 서버 실행
 if __name__ == "__main__":
+    print(f"Starting Weather MCP server at http://localhost:8000/sse")
     mcp.run(transport="sse")  # localhost:8000/sse에서 SSE 방식으로 대기
